@@ -1,0 +1,51 @@
+kind,question,correct,grounded,cited,latency_seconds
+knowledge,Explain gross sales in this POS system,True,True,True,0.017916017999993983
+knowledge,Explain net sales in this POS system,True,True,True,0.018638412999990805
+knowledge,Explain average order value in this POS system,True,True,True,0.01917463100002692
+knowledge,Explain eligible orders in this POS system,True,True,True,0.01791603499998473
+knowledge,Explain cancelled orders in this POS system,True,False,False,0.018308972999989237
+knowledge,Explain failed orders in this POS system,True,True,True,0.017752016000002868
+knowledge,Explain refund treatment in this POS system,True,True,True,0.017311220999999932
+knowledge,Explain partial refund in this POS system,True,True,True,0.02071449999999686
+knowledge,Explain full refund in this POS system,True,False,False,0.019392826000000696
+knowledge,Explain discount treatment in this POS system,True,True,True,0.019557673000008435
+knowledge,Explain gross item revenue in this POS system,True,True,True,0.024678988999994544
+knowledge,Explain units sold in this POS system,True,True,True,0.01873441399999365
+knowledge,Explain product rankings by units in this POS system,True,True,True,0.018064651000003096
+knowledge,Explain product rankings by revenue in this POS system,True,True,True,0.01806956800001558
+knowledge,Explain refund allocation in this POS system,True,True,True,0.03431229599999597
+knowledge,Explain daily reporting in this POS system,True,True,True,0.028114888000004612
+knowledge,Explain reporting period in this POS system,True,True,True,0.029123217999995177
+knowledge,Explain zero order days in this POS system,True,True,True,0.02870399500000076
+knowledge,Explain order identifier in this POS system,True,True,True,0.03214518400000088
+knowledge,Explain item identifier in this POS system,True,True,True,0.030158930999988343
+numeric,What were net sales on 2026-10-01?,True,True,,0.001824264999982006
+numeric,What were net sales on 2026-10-02?,True,True,,0.001443473999984235
+numeric,What were net sales on 2026-10-03?,True,True,,0.0013705199999947126
+numeric,What were net sales on 2026-10-04?,True,True,,0.0013108120000140389
+numeric,What were net sales on 2026-10-05?,True,True,,0.0012888109999948938
+numeric,What were net sales on 2026-10-06?,True,True,,0.001308531999995921
+numeric,What were net sales on 2026-10-07?,True,True,,0.0013481199999887394
+numeric,What were net sales on 2026-10-08?,True,True,,0.0013147209999999632
+numeric,What were net sales on 2026-10-09?,True,True,,0.0013032850000058716
+numeric,What were net sales on 2026-10-10?,True,True,,0.0013685460000090188
+numeric,What were net sales on 2026-10-11?,True,True,,0.0014282010000101764
+numeric,What were net sales on 2026-10-12?,True,True,,0.0014333590000035201
+numeric,What were net sales on 2026-10-13?,True,True,,0.0015606919999981983
+numeric,What were net sales on 2026-10-14?,True,True,,0.001272739000000911
+numeric,What were net sales on 2026-10-15?,True,True,,0.0012648940000019593
+numeric,What were net sales on 2026-10-16?,True,True,,0.00129516699999499
+numeric,What were net sales on 2026-10-17?,True,True,,0.0012484879999874465
+numeric,What were net sales on 2026-10-18?,True,True,,0.0013021259999845824
+numeric,What were net sales on 2026-10-19?,True,True,,0.001309445999993386
+numeric,What were net sales on 2026-10-20?,True,True,,0.0013648579999880894
+unsupported,Can you predict next month profit?,True,,,1.9074000022101245e-05
+unsupported,Can you run payroll?,True,,,3.3403999992742683e-05
+unsupported,Can you file my taxes?,True,,,1.4905999989878183e-05
+unsupported,Can you process my credit card number?,True,,,1.2889999993603851e-05
+unsupported,Can you forecast next quarter revenue?,True,,,1.1742999987518488e-05
+unsupported,Can you predict tomorrow sales?,True,,,3.314200000659184e-05
+unsupported,Can you handle tax filing?,True,,,1.3135000017427956e-05
+unsupported,Can you access customer card numbers?,True,,,1.3076999977101877e-05
+unsupported,Can you calculate next month profit?,True,,,1.3349999989031858e-05
+unsupported,Can you predict future revenue?,True,,,1.0915999979488333e-05

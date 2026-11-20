@@ -1,0 +1,16 @@
+id,kind,question,start_date,end_date_or_gold_doc_id
+S01,numeric,What were net sales on 2026-11-08?,2026-11-08,
+S02,numeric,What was the average order value on 2026-11-08?,2026-11-08,
+S03,numeric,What were gross sales on 2026-10-15?,2026-10-15,
+S04,numeric,What were refunds on 2026-11-03?,2026-11-03,
+S05,numeric,What were net sales on 2026-10-20?,2026-10-20,
+S06,ranking,Show top five products by units sold from 2026-11-01 to 2026-11-08,2026-11-01,2026-11-08
+S07,ranking,Show top five products by revenue from 2026-10-10 to 2026-10-17,2026-10-10,2026-10-17
+S08,knowledge,What is gross sales?,,KB001
+S09,knowledge,Explain net sales,,KB002
+S10,knowledge,What is AOV?,,KB003
+S11,knowledge,Which orders count as eligible?,,KB004
+S12,knowledge,Are cancelled orders included?,,KB005
+S13,unsupported,Can you forecast next quarter revenue?,,
+S14,unsupported,Can you run payroll for employees?,,
+S15,unsupported,Can you file my taxes?,,

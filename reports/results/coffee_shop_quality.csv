@@ -1,0 +1,2 @@
+dataset,raw_rows,valid_rows,rejected_rows,raw_missing_cells,valid_missing_cells,raw_duplicate_transaction_ids,unique_stores,unique_products,start_date,end_date
+Kaggle Coffee Shop Sales,149116,149116,0,0,0,0,3,80,2023-01-01,2023-06-30

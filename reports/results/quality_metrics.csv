@@ -1,0 +1,4 @@
+table,before_rows,before_missing_cells,before_duplicate_rows,after_rows,after_missing_cells,after_duplicate_rows,rejected_rows
+orders,2000,0,0,2000,0,0,0
+items,4948,0,0,4948,0,0,0
+products,30,0,0,30,0,0,0

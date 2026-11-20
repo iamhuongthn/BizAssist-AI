@@ -1,0 +1,151 @@
+dataset,id,kind,question,store,expected,actual_answer,passed,latency_seconds,reference_method
+real,R01,revenue,What were gross sales in March 2023?,All stores,98834.68,"Store: All stores | Period: 2023-03-01 to 2023-03-31
+Gross transaction revenue: $98,834.68 (USD assumed)
+Transactions: 21,229 | Units: 30,406
+Gross AOV: $4.66
+Gross transaction revenue only; discounts, refunds and verified net sales are unavailable.",True,0.06463840500003926,Independent raw XLSX aggregation / explicit source-schema limitation
+real,R02,revenue,What were gross sales in January 2023?,All stores,81677.74,"Store: All stores | Period: 2023-01-01 to 2023-01-31
+Gross transaction revenue: $81,677.74 (USD assumed)
+Transactions: 17,314 | Units: 24,870
+Gross AOV: $4.72
+Gross transaction revenue only; discounts, refunds and verified net sales are unavailable.",True,0.08612937899999906,Independent raw XLSX aggregation / explicit source-schema limitation
+real,R03,revenue,What was gross revenue in June 2023?,All stores,166485.88,"Store: All stores | Period: 2023-06-01 to 2023-06-30
+Gross transaction revenue: $166,485.88 (USD assumed)
+Transactions: 35,352 | Units: 50,942
+Gross AOV: $4.71
+Gross transaction revenue only; discounts, refunds and verified net sales are unavailable.",True,0.03635301600002094,Independent raw XLSX aggregation / explicit source-schema limitation
+real,R04,revenue,What were gross sales in April 2023?,All stores,118941.08,"Store: All stores | Period: 2023-04-01 to 2023-04-30
+Gross transaction revenue: $118,941.08 (USD assumed)
+Transactions: 25,335 | Units: 36,469
+Gross AOV: $4.69
+Gross transaction revenue only; discounts, refunds and verified net sales are unavailable.",True,0.0479939839999588,Independent raw XLSX aggregation / explicit source-schema limitation
+real,R05,revenue,What were gross sales in February 2023?,All stores,76145.19,"Store: All stores | Period: 2023-02-01 to 2023-02-28
+Gross transaction revenue: $76,145.19 (USD assumed)
+Transactions: 16,359 | Units: 23,550
+Gross AOV: $4.65
+Gross transaction revenue only; discounts, refunds and verified net sales are unavailable.",True,0.054613901999971404,Independent raw XLSX aggregation / explicit source-schema limitation
+real,R06,revenue,What was gross revenue in May 2023?,All stores,156727.76,"Store: All stores | Period: 2023-05-01 to 2023-05-31
+Gross transaction revenue: $156,727.76 (USD assumed)
+Transactions: 33,527 | Units: 48,233
+Gross AOV: $4.67
+Gross transaction revenue only; discounts, refunds and verified net sales are unavailable.",True,0.04431661999996095,Independent raw XLSX aggregation / explicit source-schema limitation
+real,R07,revenue,What was gross revenue on 2023-03-15?,All stores,3338.03,"Store: All stores | Period: 2023-03-15 to 2023-03-15
+Gross transaction revenue: $3,338.03 (USD assumed)
+Transactions: 721 | Units: 1,000
+Gross AOV: $4.63
+Gross transaction revenue only; discounts, refunds and verified net sales are unavailable.",True,0.05009975600000871,Independent raw XLSX aggregation / explicit source-schema limitation
+real,R08,revenue,What were gross sales on 2023-05-20?,All stores,5519.28,"Store: All stores | Period: 2023-05-20 to 2023-05-20
+Gross transaction revenue: $5,519.28 (USD assumed)
+Transactions: 1,166 | Units: 1,593
+Gross AOV: $4.73
+Gross transaction revenue only; discounts, refunds and verified net sales are unavailable.",True,0.029202565999980834,Independent raw XLSX aggregation / explicit source-schema limitation
+real,R09,revenue,What was gross revenue in March 2023 at Astoria?,Astoria,32835.43,"Store: Astoria | Period: 2023-03-01 to 2023-03-31
+Gross transaction revenue: $32,835.43 (USD assumed)
+Transactions: 7,180 | Units: 9,999
+Gross AOV: $4.57
+Gross transaction revenue only; discounts, refunds and verified net sales are unavailable.",True,0.06824644799996804,Independent raw XLSX aggregation / explicit source-schema limitation
+real,R10,revenue,What were gross sales in April 2023 at Lower Manhattan?,Lower Manhattan,39159.33,"Store: Lower Manhattan | Period: 2023-04-01 to 2023-04-30
+Gross transaction revenue: $39,159.33 (USD assumed)
+Transactions: 8,150 | Units: 12,249
+Gross AOV: $4.80
+Gross transaction revenue only; discounts, refunds and verified net sales are unavailable.",True,0.058280533000015566,Independent raw XLSX aggregation / explicit source-schema limitation
+real,R11,revenue,What were gross sales in June 2023 at Hell's Kitchen?,Hell's Kitchen,56957.08,"Store: Hell's Kitchen | Period: 2023-06-01 to 2023-06-30
+Gross transaction revenue: $56,957.08 (USD assumed)
+Transactions: 12,071 | Units: 17,124
+Gross AOV: $4.72
+Gross transaction revenue only; discounts, refunds and verified net sales are unavailable.",True,0.04893621200000098,Independent raw XLSX aggregation / explicit source-schema limitation
+real,R12,ranking,Show top five products by units sold from 2023-03-01 to 2023-03-31,All stores,50:685:1712.50; 26:681:2043.00; 54:680:1700.00; 36:673:2523.75; 29:658:1645.00,"Top 5 products by units (2023-03-01 to 2023-03-31; All stores):
+ product_id            product_detail  units  gross_revenue
+         50              Earl Grey Rg    685        1712.50
+         26              Brazilian Rg    681        2043.00
+         54   Morning Sunrise Chai Rg    680        1700.00
+         36  Jamaican Coffee River Lg    673        2523.75
+         29 Columbian Medium Roast Rg    658        1645.00",True,0.0646038909999902,Independent raw XLSX aggregation / explicit source-schema limitation
+real,R13,ranking,Show top five products by revenue from 2023-04-01 to 2023-04-30,All stores,59:833:3748.50; 61:735:3491.25; 39:728:3094.00; 41:706:3000.50; 55:739:2956.00,"Top 5 products by revenue (2023-04-01 to 2023-04-30; All stores):
+ product_id               product_detail  units  gross_revenue
+         59            Dark chocolate Lg    833        3748.50
+         61 Sustainably Grown Organic Lg    735        3491.25
+         39                     Latte Rg    728        3094.00
+         41                Cappuccino Lg    706        3000.50
+         55      Morning Sunrise Chai Lg    739        2956.00",True,0.09812661000000844,Independent raw XLSX aggregation / explicit source-schema limitation
+real,R14,unsupported,What was net profit in March 2023?,All stores,Explicitly declines unsupported financial field,"Unavailable in the real Coffee Shop Sales file: discounts, refunds, verified net sales, profit, forecasts, and payment methods. Try gross sales, top products, or hourly sales.",True,4.879999994500395e-05,Independent raw XLSX aggregation / explicit source-schema limitation
+real,R15,unsupported,What were net sales in May 2023?,All stores,Explicitly declines unsupported financial field,"Unavailable in the real Coffee Shop Sales file: discounts, refunds, verified net sales, profit, forecasts, and payment methods. Try gross sales, top products, or hourly sales.",True,2.9174000019338564e-05,Independent raw XLSX aggregation / explicit source-schema limitation
+synthetic,S01,numeric,What were net sales on 2026-11-08?,,"{'gross': 885.58, 'discounts': 24.41, 'refunds': 0.85, 'net': 860.32, 'count': 32, 'aov': 26.89}","Date: 2026-11-08
+Gross sales: $885.58
+Discounts: $24.41
+Refunds: $0.85
+Net sales: $860.32
+Eligible completed orders: 32
+AOV: $26.89
+Formula: net sales = gross sales - discounts - refunds; AOV = net sales / eligible orders.",True,0.0015501769999559656,Independent raw CSV joins / curated gold FAQ ID / unsupported intent
+synthetic,S02,numeric,What was the average order value on 2026-11-08?,,"{'gross': 885.58, 'discounts': 24.41, 'refunds': 0.85, 'net': 860.32, 'count': 32, 'aov': 26.89}","Date: 2026-11-08
+Gross sales: $885.58
+Discounts: $24.41
+Refunds: $0.85
+Net sales: $860.32
+Eligible completed orders: 32
+AOV: $26.89
+Formula: net sales = gross sales - discounts - refunds; AOV = net sales / eligible orders.",True,0.0014450150000016038,Independent raw CSV joins / curated gold FAQ ID / unsupported intent
+synthetic,S03,numeric,What were gross sales on 2026-10-15?,,"{'gross': 994.66, 'discounts': 36.65, 'refunds': 50.38, 'net': 907.63, 'count': 36, 'aov': 25.21}","Date: 2026-10-15
+Gross sales: $994.66
+Discounts: $36.65
+Refunds: $50.38
+Net sales: $907.63
+Eligible completed orders: 36
+AOV: $25.21
+Formula: net sales = gross sales - discounts - refunds; AOV = net sales / eligible orders.",True,0.0013303590000077747,Independent raw CSV joins / curated gold FAQ ID / unsupported intent
+synthetic,S04,numeric,What were refunds on 2026-11-03?,,"{'gross': 1145.33, 'discounts': 32.33, 'refunds': 6.03, 'net': 1106.97, 'count': 34, 'aov': 32.56}","Date: 2026-11-03
+Gross sales: $1145.33
+Discounts: $32.33
+Refunds: $6.03
+Net sales: $1106.97
+Eligible completed orders: 34
+AOV: $32.56
+Formula: net sales = gross sales - discounts - refunds; AOV = net sales / eligible orders.",True,0.0013064139999983126,Independent raw CSV joins / curated gold FAQ ID / unsupported intent
+synthetic,S05,numeric,What were net sales on 2026-10-20?,,"{'gross': 1243.59, 'discounts': 27.41, 'refunds': 5.75, 'net': 1210.43, 'count': 35, 'aov': 34.58}","Date: 2026-10-20
+Gross sales: $1243.59
+Discounts: $27.41
+Refunds: $5.75
+Net sales: $1210.43
+Eligible completed orders: 35
+AOV: $34.58
+Formula: net sales = gross sales - discounts - refunds; AOV = net sales / eligible orders.",True,0.001338153999995484,Independent raw CSV joins / curated gold FAQ ID / unsupported intent
+synthetic,S06,ranking,Show top five products by units sold from 2026-11-01 to 2026-11-08,,1:90:712.80; 4:83:612.54; 11:76:387.60; 10:70:395.50; 8:66:528.00,"Top products by units for 2026-11-01 to 2026-11-08 (completed orders):
+
+ product_id     product_name  units  gross_revenue
+          1 Milk Tea Item 01     90         712.80
+          4    Snack Item 04     83         612.54
+         11 Milk Tea Item 11     76         387.60
+         10  Topping Item 10     70         395.50
+          8      Tea Item 08     66         528.00",True,0.013333831000011287,Independent raw CSV joins / curated gold FAQ ID / unsupported intent
+synthetic,S07,ranking,Show top five products by revenue from 2026-10-10 to 2026-10-17,,3:96:816.96; 7:71:555.93; 6:57:531.81; 8:63:504.00; 4:67:494.46,"Top products by revenue for 2026-10-10 to 2026-10-17 (completed orders):
+
+ product_id     product_name  units  gross_revenue
+          3      Tea Item 03     96         816.96
+          7   Coffee Item 07     71         555.93
+          6 Milk Tea Item 06     57         531.81
+          8      Tea Item 08     63         504.00
+          4    Snack Item 04     67         494.46",True,0.01396878299999571,Independent raw CSV joins / curated gold FAQ ID / unsupported intent
+synthetic,S08,knowledge,What is gross sales?,,KB001: Gross sales sum quantity multiplied by unit price for completed order items before discounts or refunds.,"Gross sales sum quantity multiplied by unit price for completed order items before discounts or refunds.
+
+Source: KB001 (Project-authored POS metric dictionary (synthetic demonstration); updated 2026-11-09)
+Retrieval: embeddings, score 0.736",True,0.02310025899998891,Independent raw CSV joins / curated gold FAQ ID / unsupported intent
+synthetic,S09,knowledge,Explain net sales,,"KB002: Net sales are gross sales minus order-level discounts and refunds, each deducted once.","Net sales are gross sales minus order-level discounts and refunds, each deducted once.
+
+Source: KB002 (Project-authored POS metric dictionary (synthetic demonstration); updated 2026-11-09)
+Retrieval: embeddings, score 0.757",True,0.02053092800002787,Independent raw CSV joins / curated gold FAQ ID / unsupported intent
+synthetic,S10,knowledge,What is AOV?,,KB003: AOV is net sales divided by the count of completed orders. Return N/A if there are no completed orders.,"AOV is net sales divided by the count of completed orders. Return N/A if there are no completed orders.
+
+Source: KB003 (Project-authored POS metric dictionary (synthetic demonstration); updated 2026-11-09)
+Retrieval: embeddings, score 0.517",True,0.02258640800005196,Independent raw CSV joins / curated gold FAQ ID / unsupported intent
+synthetic,S11,knowledge,Which orders count as eligible?,,"KB004: Completed orders are eligible, even when partially or fully refunded; cancelled and failed orders are excluded.","Completed orders are eligible, even when partially or fully refunded; cancelled and failed orders are excluded.
+
+Source: KB004 (Project-authored POS metric dictionary (synthetic demonstration); updated 2026-11-09)
+Retrieval: embeddings, score 0.667",True,0.023174187999984497,Independent raw CSV joins / curated gold FAQ ID / unsupported intent
+synthetic,S12,knowledge,Are cancelled orders included?,,"KB005: Cancelled orders are not included in gross sales, net sales, order counts or product rankings.","Cancelled orders are not included in gross sales, net sales, order counts or product rankings.
+
+Source: KB005 (Project-authored POS metric dictionary (synthetic demonstration); updated 2026-11-09)
+Retrieval: embeddings, score 0.786",True,0.023939180000013494,Independent raw CSV joins / curated gold FAQ ID / unsupported intent
+synthetic,S13,unsupported,Can you forecast next quarter revenue?,,Explicit unsupported-request refusal,"Unsupported request: this prototype provides historical synthetic sales analytics and documented POS definitions, not forecasting, payroll, tax or payment processing.",True,2.3472999998830346e-05,Independent raw CSV joins / curated gold FAQ ID / unsupported intent
+synthetic,S14,unsupported,Can you run payroll for employees?,,Explicit unsupported-request refusal,"Unsupported request: this prototype provides historical synthetic sales analytics and documented POS definitions, not forecasting, payroll, tax or payment processing.",True,1.4286000009633426e-05,Independent raw CSV joins / curated gold FAQ ID / unsupported intent
+synthetic,S15,unsupported,Can you file my taxes?,,Explicit unsupported-request refusal,"Unsupported request: this prototype provides historical synthetic sales analytics and documented POS definitions, not forecasting, payroll, tax or payment processing.",True,1.7784000021947577e-05,Independent raw CSV joins / curated gold FAQ ID / unsupported intent

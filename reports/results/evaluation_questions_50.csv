@@ -1,0 +1,51 @@
+kind,question,gold_doc_id,expected,date,expected_net
+knowledge,Explain gross sales in this POS system,KB001,Gross sales sum quantity multiplied by unit price for completed order items before discounts or refunds.,,
+knowledge,Explain net sales in this POS system,KB002,"Net sales are gross sales minus order-level discounts and refunds, each deducted once.",,
+knowledge,Explain average order value in this POS system,KB003,AOV is net sales divided by the count of completed orders. Return N/A if there are no completed orders.,,
+knowledge,Explain eligible orders in this POS system,KB004,"Completed orders are eligible, even when partially or fully refunded; cancelled and failed orders are excluded.",,
+knowledge,Explain cancelled orders in this POS system,KB005,"Cancelled orders are not included in gross sales, net sales, order counts or product rankings.",,
+knowledge,Explain failed orders in this POS system,KB006,Failed orders are excluded from sales calculations and eligible order counts.,,
+knowledge,Explain refund treatment in this POS system,KB007,Refunds reduce net sales but do not remove a completed order from eligible order counts.,,
+knowledge,Explain partial refund in this POS system,KB008,A partial refund subtracts only its refunded amount from net sales.,,
+knowledge,Explain full refund in this POS system,KB009,A full refund can reduce an order net amount to zero without changing completed-order eligibility.,,
+knowledge,Explain discount treatment in this POS system,KB010,"Order-level discounts reduce net sales once per order, not once per item.",,
+knowledge,Explain gross item revenue in this POS system,KB011,Product gross item revenue sums quantity times unit price across completed order items.,,
+knowledge,Explain units sold in this POS system,KB012,Units sold sum item quantities from completed orders for each product.,,
+knowledge,Explain product rankings by units in this POS system,KB013,Rank products by summed units sold and explicitly state the metric and date range.,,
+knowledge,Explain product rankings by revenue in this POS system,KB014,"Rank products by gross item revenue, before order-level discounts and refunds.",,
+knowledge,Explain refund allocation in this POS system,KB015,This prototype does not allocate order-level refunds to individual products.,,
+knowledge,Explain daily reporting in this POS system,KB016,Daily reports group completed orders by the order timestamp calendar date.,,
+knowledge,Explain reporting period in this POS system,KB017,Specify start and end dates when requesting product rankings over a date range.,,
+knowledge,Explain zero order days in this POS system,KB018,A day without completed orders has zero gross and net sales and an unavailable AOV.,,
+knowledge,Explain order identifier in this POS system,KB019,order_id uniquely identifies an order and links its line items.,,
+knowledge,Explain item identifier in this POS system,KB020,item_id uniquely identifies a POS line item.,,
+numeric,What were net sales on 2026-10-01?,,,2026-10-01,1107.83
+numeric,What were net sales on 2026-10-02?,,,2026-10-02,844.46
+numeric,What were net sales on 2026-10-03?,,,2026-10-03,882.61
+numeric,What were net sales on 2026-10-04?,,,2026-10-04,844.46
+numeric,What were net sales on 2026-10-05?,,,2026-10-05,702.14
+numeric,What were net sales on 2026-10-06?,,,2026-10-06,1004.13
+numeric,What were net sales on 2026-10-07?,,,2026-10-07,986.39
+numeric,What were net sales on 2026-10-08?,,,2026-10-08,1014.16
+numeric,What were net sales on 2026-10-09?,,,2026-10-09,847.45
+numeric,What were net sales on 2026-10-10?,,,2026-10-10,1174.45
+numeric,What were net sales on 2026-10-11?,,,2026-10-11,1160.01
+numeric,What were net sales on 2026-10-12?,,,2026-10-12,858.98
+numeric,What were net sales on 2026-10-13?,,,2026-10-13,806.26
+numeric,What were net sales on 2026-10-14?,,,2026-10-14,418.36
+numeric,What were net sales on 2026-10-15?,,,2026-10-15,907.63
+numeric,What were net sales on 2026-10-16?,,,2026-10-16,983.44
+numeric,What were net sales on 2026-10-17?,,,2026-10-17,1078.35
+numeric,What were net sales on 2026-10-18?,,,2026-10-18,776.57
+numeric,What were net sales on 2026-10-19?,,,2026-10-19,1082.77
+numeric,What were net sales on 2026-10-20?,,,2026-10-20,1210.43
+unsupported,Can you predict next month profit?,,,,
+unsupported,Can you run payroll?,,,,
+unsupported,Can you file my taxes?,,,,
+unsupported,Can you process my credit card number?,,,,
+unsupported,Can you forecast next quarter revenue?,,,,
+unsupported,Can you predict tomorrow sales?,,,,
+unsupported,Can you handle tax filing?,,,,
+unsupported,Can you access customer card numbers?,,,,
+unsupported,Can you calculate next month profit?,,,,
+unsupported,Can you predict future revenue?,,,,

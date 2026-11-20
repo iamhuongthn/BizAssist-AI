@@ -1,0 +1,39 @@
+Q: What is net sales?
+A: Net sales are gross sales minus order-level discounts and refunds, each deducted once.
+
+Source: KB002 (Project-authored POS metric dictionary (synthetic demonstration); updated 2026-11-09)
+Retrieval: embeddings, score 0.769
+
+Q: What were my net sales on 2026-11-08?
+A: Date: 2026-11-08
+Gross sales: $885.58
+Discounts: $24.41
+Refunds: $0.85
+Net sales: $860.32
+Eligible completed orders: 32
+AOV: $26.89
+Formula: net sales = gross sales - discounts - refunds; AOV = net sales / eligible orders.
+
+Q: What was the average order value on 2026-11-08?
+A: Date: 2026-11-08
+Gross sales: $885.58
+Discounts: $24.41
+Refunds: $0.85
+Net sales: $860.32
+Eligible completed orders: 32
+AOV: $26.89
+Formula: net sales = gross sales - discounts - refunds; AOV = net sales / eligible orders.
+
+Q: Show top five products by units sold from 2026-11-01 to 2026-11-08
+A: Top products by units for 2026-11-01 to 2026-11-08 (completed orders):
+
+ product_id     product_name  units  gross_revenue
+          1 Milk Tea Item 01     90         712.80
+          4    Snack Item 04     83         612.54
+         11 Milk Tea Item 11     76         387.60
+         10  Topping Item 10     70         395.50
+          8      Tea Item 08     66         528.00
+
+Q: Can you predict next month profit?
+A: Unsupported request: this prototype provides historical synthetic sales analytics and documented POS definitions, not forecasting, payroll, tax or payment processing.
+

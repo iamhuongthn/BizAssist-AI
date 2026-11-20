@@ -1,0 +1,16 @@
+id,kind,question,period_type,period,store
+R01,revenue,What were gross sales in March 2023?,month,2023-03,All stores
+R02,revenue,What were gross sales in January 2023?,month,2023-01,All stores
+R03,revenue,What was gross revenue in June 2023?,month,2023-06,All stores
+R04,revenue,What were gross sales in April 2023?,month,2023-04,All stores
+R05,revenue,What were gross sales in February 2023?,month,2023-02,All stores
+R06,revenue,What was gross revenue in May 2023?,month,2023-05,All stores
+R07,revenue,What was gross revenue on 2023-03-15?,day,2023-03-15,All stores
+R08,revenue,What were gross sales on 2023-05-20?,day,2023-05-20,All stores
+R09,revenue,What was gross revenue in March 2023 at Astoria?,month,2023-03,Astoria
+R10,revenue,What were gross sales in April 2023 at Lower Manhattan?,month,2023-04,Lower Manhattan
+R11,revenue,What were gross sales in June 2023 at Hell's Kitchen?,month,2023-06,Hell's Kitchen
+R12,ranking,Show top five products by units sold from 2023-03-01 to 2023-03-31,range,2023-03-01|2023-03-31,All stores
+R13,ranking,Show top five products by revenue from 2023-04-01 to 2023-04-30,range,2023-04-01|2023-04-30,All stores
+R14,unsupported,What was net profit in March 2023?,none,,All stores
+R15,unsupported,What were net sales in May 2023?,none,,All stores

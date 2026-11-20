@@ -1,0 +1,41 @@
+doc_id,title,content,source,updated_at
+KB001,Gross sales,Gross sales sum quantity multiplied by unit price for completed order items before discounts or refunds.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB002,Net sales,"Net sales are gross sales minus order-level discounts and refunds, each deducted once.",Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB003,Average order value,AOV is net sales divided by the count of completed orders. Return N/A if there are no completed orders.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB004,Eligible orders,"Completed orders are eligible, even when partially or fully refunded; cancelled and failed orders are excluded.",Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB005,Cancelled orders,"Cancelled orders are not included in gross sales, net sales, order counts or product rankings.",Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB006,Failed orders,Failed orders are excluded from sales calculations and eligible order counts.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB007,Refund treatment,Refunds reduce net sales but do not remove a completed order from eligible order counts.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB008,Partial refund,A partial refund subtracts only its refunded amount from net sales.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB009,Full refund,A full refund can reduce an order net amount to zero without changing completed-order eligibility.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB010,Discount treatment,"Order-level discounts reduce net sales once per order, not once per item.",Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB011,Gross item revenue,Product gross item revenue sums quantity times unit price across completed order items.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB012,Units sold,Units sold sum item quantities from completed orders for each product.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB013,Product rankings by units,Rank products by summed units sold and explicitly state the metric and date range.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB014,Product rankings by revenue,"Rank products by gross item revenue, before order-level discounts and refunds.",Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB015,Refund allocation,This prototype does not allocate order-level refunds to individual products.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB016,Daily reporting,Daily reports group completed orders by the order timestamp calendar date.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB017,Reporting period,Specify start and end dates when requesting product rankings over a date range.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB018,Zero order days,A day without completed orders has zero gross and net sales and an unavailable AOV.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB019,Order identifier,order_id uniquely identifies an order and links its line items.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB020,Item identifier,item_id uniquely identifies a POS line item.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB021,Product identifier,product_id identifies a catalog product referenced by order items.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB022,Foreign keys,Each order item must reference an existing order and product.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB023,Duplicate identifiers,Repeated primary keys are invalid and must be flagged rather than silently aggregated.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB024,Missing timestamps,An order with a missing or invalid timestamp cannot be assigned to a reporting date.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB025,Invalid quantities,Completed-sale item quantities must be positive to support valid unit and revenue totals.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB026,Invalid prices,Unit prices cannot be negative; invalid rows should be quarantined.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB027,Financial reconciliation,Discounts and refunds cannot jointly exceed the completed order gross amount.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB028,Order status,"Supported order statuses are completed, cancelled and failed.",Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB029,Data provenance,"BizAssist uses generated synthetic POS records, not live store transactions.",Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB030,Privacy,Synthetic records do not contain real customer identities or payment card data.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB031,Data validation,"Validate required columns, types, keys, values and financial totals before analytics.",Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB032,Rejected records,Quarantined records retain a reason for rejection and are excluded from calculations.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB033,Categorical encoding,One-hot encoding converts order status and product category into numeric indicator columns.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB034,Numerical scaling,Standardization centers numerical analysis features and scales by training-set standard deviation.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB035,Day of week,day_of_week derives from an order timestamp and can reveal weekly demand patterns.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB036,Hour of day,hour_of_day derives from an order timestamp and can reveal time-of-day demand patterns.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB037,Knowledge retrieval,FAQ documents are retrieved using text similarity and reported with source IDs.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB038,Retrieval uncertainty,Weakly matched knowledge questions should receive a limitation instead of a fabricated answer.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB039,No forecasting,The prototype reports historical synthetic sales and does not predict future profits.,Project-authored POS metric dictionary (synthetic demonstration),2026-11-09
+KB040,No payment processing,"The prototype cannot process card payments, payroll or tax filings.",Project-authored POS metric dictionary (synthetic demonstration),2026-11-09

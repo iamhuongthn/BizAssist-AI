@@ -1,0 +1,10 @@
+dataset,kind,cases,passed,accuracy,median_latency_seconds
+real,ranking,2,2,1.0,0.08136525049999932
+real,revenue,11,11,1.0,0.05009975600000871
+real,unsupported,2,2,1.0,3.8986999982171255e-05
+synthetic,knowledge,5,5,1.0,0.02310025899998891
+synthetic,numeric,5,5,1.0,0.001338153999995484
+synthetic,ranking,2,2,1.0,0.013651307000003499
+synthetic,unsupported,3,3,1.0,1.7784000021947577e-05
+real,ALL,15,15,1.0,0.05009975600000871
+synthetic,ALL,15,15,1.0,0.0015501769999559656

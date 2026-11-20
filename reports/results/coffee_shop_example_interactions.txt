@@ -1,0 +1,27 @@
+Q: What were gross sales in March 2023?
+A: Store: All stores | Period: 2023-03-01 to 2023-03-31
+Gross transaction revenue: $98,834.68 (USD assumed)
+Transactions: 21,229 | Units: 30,406
+Gross AOV: $4.66
+Gross transaction revenue only; discounts, refunds and verified net sales are unavailable.
+
+Q: Show top five products by units sold from 2023-03-01 to 2023-03-31
+A: Top 5 products by units (2023-03-01 to 2023-03-31; All stores):
+ product_id            product_detail  units  gross_revenue
+         50              Earl Grey Rg    685        1712.50
+         26              Brazilian Rg    681        2043.00
+         54   Morning Sunrise Chai Rg    680        1700.00
+         36  Jamaican Coffee River Lg    673        2523.75
+         29 Columbian Medium Roast Rg    658        1645.00
+
+Q: What was the busiest hour?
+A: Busiest hour: 10:00 (18,545 transactions; All stores).
+
+Q: What is gross sales?
+A: Gross sales sum quantity multiplied by unit price for completed order items before discounts or refunds.
+
+Knowledge source: KB001 (Project-authored POS metric dictionary (synthetic demonstration)); this definition is not a calculated Kaggle metric.
+
+Q: What were net sales in March 2023?
+A: Unavailable in the real Coffee Shop Sales file: discounts, refunds, verified net sales, profit, forecasts, and payment methods. Try gross sales, top products, or hourly sales.
+
